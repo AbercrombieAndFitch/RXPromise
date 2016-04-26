@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44A91FD11BFB9275000B9125 /* DLog.h in Headers */ = {isa = PBXBuildFile; fileRef = A19C19D21759EA3B008E3F63 /* DLog.h */; settings = {ASSET_TAGS = (); }; };
+		44A91FD21BFB9277000B9125 /* RXPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = A1A5811C18F0308A00A00242 /* RXPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44A91FD31BFB927C000B9125 /* RXPromise.mm in Sources */ = {isa = PBXBuildFile; fileRef = A19C19D01759EA3B008E3F63 /* RXPromise.mm */; settings = {ASSET_TAGS = (); }; };
+		44A91FD41BFB927F000B9125 /* RXPromise+RXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A124D1EC182F902300F35B28 /* RXPromise+RXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44A91FD51BFB9284000B9125 /* RXPromise+RXExtension.mm in Sources */ = {isa = PBXBuildFile; fileRef = A124D1ED182F902300F35B28 /* RXPromise+RXExtension.mm */; settings = {ASSET_TAGS = (); }; };
+		44A91FD61BFB9291000B9125 /* RXPromise+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A124D1F2182F942D00F35B28 /* RXPromise+Private.h */; settings = {ASSET_TAGS = (); }; };
+		44A91FD71BFB9295000B9125 /* RXSettledResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F56AD3B1922A25800947570 /* RXSettledResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44A91FD81BFB929A000B9125 /* RXSettledResult.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F56AD3C1922A25800947570 /* RXSettledResult.mm */; settings = {ASSET_TAGS = (); }; };
+		44A91FDA1BFB92BD000B9125 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A91FD91BFB92BD000B9125 /* Foundation.framework */; };
+		44A91FDC1BFB92C5000B9125 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A91FDB1BFB92C5000B9125 /* CoreData.framework */; };
+		44A91FDE1BFB92CA000B9125 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A91FDD1BFB92CA000B9125 /* UIKit.framework */; };
 		9F56AD3D1922A25800947570 /* RXSettledResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F56AD3B1922A25800947570 /* RXSettledResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F56AD3E1922A25800947570 /* RXSettledResult.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F56AD3C1922A25800947570 /* RXSettledResult.mm */; };
 		9F56AD3F1922A59500947570 /* RXSettledResult.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F56AD3C1922A25800947570 /* RXSettledResult.mm */; };
@@ -62,6 +73,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		44A91FC91BFB9257000B9125 /* RXPromise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RXPromise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A91FCD1BFB9257000B9125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44A91FD91BFB92BD000B9125 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		44A91FDB1BFB92C5000B9125 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		44A91FDD1BFB92CA000B9125 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		9F56AD3B1922A25800947570 /* RXSettledResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXSettledResult.h; sourceTree = "<group>"; };
 		9F56AD3C1922A25800947570 /* RXSettledResult.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RXSettledResult.mm; sourceTree = "<group>"; };
 		A124D1EC182F902300F35B28 /* RXPromise+RXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RXPromise+RXExtension.h"; sourceTree = "<group>"; };
@@ -90,6 +106,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		44A91FC51BFB9257000B9125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A91FDE1BFB92CA000B9125 /* UIKit.framework in Frameworks */,
+				44A91FDC1BFB92C5000B9125 /* CoreData.framework in Frameworks */,
+				44A91FDA1BFB92BD000B9125 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A19C19941759E879008E3F63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -118,6 +144,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44A91FCA1BFB9257000B9125 /* RXPromise iOS Framework */ = {
+			isa = PBXGroup;
+			children = (
+				44A91FCD1BFB9257000B9125 /* Info.plist */,
+			);
+			path = "RXPromise iOS Framework";
+			sourceTree = "<group>";
+		};
 		A19C198C1759E846008E3F63 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +159,7 @@
 				A19C19A11759E879008E3F63 /* RXPromise Framework */,
 				A19C19B41759E894008E3F63 /* RXPromise Static */,
 				A19C19C41759E8CA008E3F63 /* RXPRomise iOS */,
+				44A91FCA1BFB9257000B9125 /* RXPromise iOS Framework */,
 				A19C199A1759E879008E3F63 /* Frameworks */,
 				A19C19991759E879008E3F63 /* Products */,
 			);
@@ -136,6 +171,7 @@
 				A19C19981759E879008E3F63 /* RXPromise.framework */,
 				A19C19B21759E894008E3F63 /* libRXPromise.a */,
 				A19C19C11759E8CA008E3F63 /* libRXPromise.a */,
+				44A91FC91BFB9257000B9125 /* RXPromise.framework */,
 			);
 			name = Products;
 			path = "../../../../../../../../Develop/Test/RXPromiseCoreData/RXPromise/RXPromise Libraries";
@@ -144,6 +180,9 @@
 		A19C199A1759E879008E3F63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				44A91FDD1BFB92CA000B9125 /* UIKit.framework */,
+				44A91FDB1BFB92C5000B9125 /* CoreData.framework */,
+				44A91FD91BFB92BD000B9125 /* Foundation.framework */,
 				A1AE766F18C9BE6200246669 /* RXPromise.framework */,
 				A19C199B1759E879008E3F63 /* Cocoa.framework */,
 				A19C19C21759E8CA008E3F63 /* Foundation.framework */,
@@ -241,6 +280,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		44A91FC61BFB9257000B9125 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A91FD71BFB9295000B9125 /* RXSettledResult.h in Headers */,
+				44A91FD61BFB9291000B9125 /* RXPromise+Private.h in Headers */,
+				44A91FD41BFB927F000B9125 /* RXPromise+RXExtension.h in Headers */,
+				44A91FD11BFB9275000B9125 /* DLog.h in Headers */,
+				44A91FD21BFB9277000B9125 /* RXPromise.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A19C19951759E879008E3F63 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,6 +307,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		44A91FC81BFB9257000B9125 /* RXPromise iOS Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A91FD01BFB9257000B9125 /* Build configuration list for PBXNativeTarget "RXPromise iOS Framework" */;
+			buildPhases = (
+				44A91FC41BFB9257000B9125 /* Sources */,
+				44A91FC51BFB9257000B9125 /* Frameworks */,
+				44A91FC61BFB9257000B9125 /* Headers */,
+				44A91FC71BFB9257000B9125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RXPromise iOS Framework";
+			productName = "RXPromise iOS Framework";
+			productReference = 44A91FC91BFB9257000B9125 /* RXPromise.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A19C19971759E879008E3F63 /* RXPromise Framework */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A19C19AB1759E879008E3F63 /* Build configuration list for PBXNativeTarget "RXPromise Framework" */;
@@ -315,6 +384,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					44A91FC81BFB9257000B9125 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
 			};
 			buildConfigurationList = A19C19901759E846008E3F63 /* Build configuration list for PBXProject "RXPromise Libraries" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -332,11 +406,19 @@
 				A19C19971759E879008E3F63 /* RXPromise Framework */,
 				A19C19B11759E894008E3F63 /* RXPromise Static */,
 				A19C19C01759E8CA008E3F63 /* RXPromise iOS */,
+				44A91FC81BFB9257000B9125 /* RXPromise iOS Framework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		44A91FC71BFB9257000B9125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A19C19961759E879008E3F63 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -348,6 +430,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		44A91FC41BFB9257000B9125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A91FD31BFB927C000B9125 /* RXPromise.mm in Sources */,
+				44A91FD81BFB929A000B9125 /* RXSettledResult.mm in Sources */,
+				44A91FD51BFB9284000B9125 /* RXPromise+RXExtension.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A19C19931759E879008E3F63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -392,6 +484,112 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		44A91FCE1BFB9257000B9125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "RXPromise iOS Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ag.RXPromise.RXPromise-iOS-Framework";
+				PRODUCT_NAME = RXPromise;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44A91FCF1BFB9257000B9125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "RXPromise iOS Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ag.RXPromise.RXPromise-iOS-Framework";
+				PRODUCT_NAME = RXPromise;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A19C19911759E846008E3F63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -658,6 +856,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		44A91FD01BFB9257000B9125 /* Build configuration list for PBXNativeTarget "RXPromise iOS Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A91FCE1BFB9257000B9125 /* Debug */,
+				44A91FCF1BFB9257000B9125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		A19C19901759E846008E3F63 /* Build configuration list for PBXProject "RXPromise Libraries" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
